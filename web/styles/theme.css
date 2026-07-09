@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #111318;
+  color: #f5f5f5;
+  font-family: "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
+  overflow: hidden;
+}
+
+#app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.slide {
+  width: 90vw;
+  max-width: 1100px;
+  padding: 4rem;
+}
+
+.slide h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  border-bottom: 4px solid #4f8cff;
+  padding-bottom: 0.5rem;
+}
+
+.slide p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #cfd3dc;
+}
+
+.slide ul {
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+
+.progress {
+  position: fixed;
+  bottom: 1rem;
+  right: 1.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}

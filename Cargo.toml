@@ -1,0 +1,15 @@
+[package]
+name = "slideapp"
+version = "0.1.0"
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+clap = { version = "4", features = ["derive"] }
+notify = "6"
+anyhow = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
