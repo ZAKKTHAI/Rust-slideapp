@@ -1,0 +1,13 @@
+[package]
+name = "slideapp"
+version = "0.1.0"
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+pulldown-cmark = "0.10"
